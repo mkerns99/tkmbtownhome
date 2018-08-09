@@ -1,0 +1,291 @@
+/*////////////////////////////Nav Bar////////////////////////////*/
+
+nav {
+  background-color: #0052b2;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 15px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 15px 10px;
+  color: #fff;
+ }
+
+.activeNavLink {
+  padding: 15px 10px;
+  background-color: #fff;
+  color: #0052b2;
+}
+
+nav a:hover {
+  padding: 15px 10px;
+  background-color: #fff;
+  color: #0052b2;
+  text-decoration: none;
+}
+
+/*////////////////////////////Body////////////////////////////*/
+body {
+  background-image: url(../images/jetty.jpeg);
+  color: #0052b2;
+  min-width: 400px;
+}
+
+.container {
+  background-color: #fff;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+}
+
+h4 {
+    margin: 20px 10px 10px;
+}
+p {
+    margin: 10px;
+}
+
+
+
+/*////////////////////////////Carousel////////////////////////////*/
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.carousel {
+	background-color: #0052B2;
+}
+
+.carousel-inner .item img {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+  background-color: #0052B2;
+  max-height: 440px;
+}
+
+#myCarousel .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+/*////////////////////////////Contact Section////////////////////////////*/
+
+.carouselAndContact {
+  background-color: #fff;
+}
+
+.btn-info {
+  box-shadow: 2px 2px 10px #0052B2;
+  width: 175px;
+  text-shadow: 4px 2px 10px #0052B2;
+}
+
+#contactInfo, #directions   {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+#contactInfo h2, #directions h2 {
+  background-color: #7326cc;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.contactRow {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.contactRow h4 {
+  color: #0052B2;
+}
+
+address {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.addressMainPage {
+  margin-top: 35px;
+}
+
+
+
+/*////////////////////////////Details////////////////////////////*/
+
+.details {
+	clear: both;
+  margin: 30px;
+  font-size: 1.2em;
+}
+
+ .midpageH2 h2{
+  font-family: 'Raleway', sans-serif;
+  background-color: #7326cc;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  display: inline-block;
+}
+
+.midpageH2  {
+  
+}
+
+/*////////////////////////////Amenities////////////////////////////*/
+.amenities {
+  font-size: 1.2em;
+}
+
+.amenitiesRight ul, .amenitiesLeft ul {
+  list-style: none;
+}
+
+.amenitiesRight i {
+  color: green;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.amenitiesLeft i {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.amenitiesLeft, .amenitiesLeft li {
+  margin-top: 10px;
+}
+
+/*////////////////////////////About Mexico Beach////////////////////////////*/
+
+#directions li{
+  padding: 15px;
+}
+
+.restaurant {
+  margin-bottom: 20px;
+}
+
+.restaurantsFishingAndTips{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+  text-align: center;
+
+}
+.picture1 {
+  background-image: url(../images/fishing.jpg);
+  margin: auto;
+  width: 90%;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  background-size:  cover;
+  border: 10px #ccc solid;
+}
+
+.picture2 {
+  background-image: url(../images/restaurants.jpg);
+  margin: auto;
+  width: 90%;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  background-size:  cover;
+  border: 10px #ccc solid;
+}
+
+.picture3 {
+  background-image: url(../images/Tips.jpg);
+  margin: auto;
+  width: 90%;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  border: 10px #ccc solid;
+  position: relative;
+}
+
+.restaurantsButton, .fishingButton, .tipsButton {
+  text-align: center;
+}
+
+.txtwrapper {
+  min-height: 82px;
+  margin-bottom: 15%;
+  text-align: left;
+}
+
+.modal-body, .modal-title {
+  color: #0052b2;
+  text-align: left;
+}
+
+
+
+/*////////////////////////////Footers////////////////////////////*/
+ .footerDirections {
+  background-color: #0052b2;
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  opacity: 0.8;
+}
+
+.footerDirections ul {
+  list-style: none;
+  padding: 15px;
+}
+
+.footerDirections a {
+  padding: 15px 10px;
+  color: #fff;
+}
+
+.footerDirections a:hover {
+  padding: 15px 10px;
+  background-color: #fff;
+  text-decoration: none;
+  color: #0052b2;
+}
+
+
+.footerBack {
+  background-color: #0052b2;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  opacity: 0.8;
+
+}
+
+.footerBack ul {
+  list-style: none;
+  padding: 15px;
+}
+
+.footerBack a {
+  padding: 15px 10px;
+  color: #fff;
+}
+
+.footerBack a:hover {
+  padding: 15px 10px;
+  background-color: #fff;
+  text-decoration: none;
+  color: #0052b2;
+}
