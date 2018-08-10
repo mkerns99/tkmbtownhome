@@ -80,6 +80,15 @@ p {
   padding-right: 0;
   padding-left: 0;
 }
+
+
+.rotate {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 /*////////////////////////////Contact Section////////////////////////////*/
 
 .carouselAndContact {
@@ -88,7 +97,7 @@ p {
 
 .btn-info {
   box-shadow: 2px 2px 10px #0052B2;
-  width: 175px;
+  width: 85%;
   text-shadow: 4px 2px 10px #0052B2;
 }
 
@@ -155,20 +164,15 @@ address {
 
 .amenitiesRight ul, .amenitiesLeft ul {
   list-style: none;
-}
-
-.amenitiesRight i {
-  color: green;
-  margin-right: 5px;
-  margin-top: 5px;
-}
-
-.amenitiesLeft i {
   margin-right: 5px;
   margin-top: 5px;
 }
 
 .amenitiesLeft, .amenitiesLeft li {
+  margin-top: 10px;
+}
+
+.amenitiesRight, .amenitiesRight li {
   margin-top: 10px;
 }
 
